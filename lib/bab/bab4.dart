@@ -7,7 +7,7 @@ class Babempat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Kalkulator')),
+      appBar: AppBar(title: Text('Kalkulator')),
       body: const CalculatorWidget(),
     );
   }
@@ -23,7 +23,7 @@ class CalculatorWidget extends StatefulWidget {
 class _CalculatorWidgetState extends State<CalculatorWidget> {
   final TextEditingController _controller1 = TextEditingController();
   final TextEditingController _controller2 = TextEditingController();
-  String _hasil = 'Hasil';
+  String _hasil = '...';
 
   void _hitung(String op) {
     setState(() {
