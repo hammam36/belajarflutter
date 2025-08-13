@@ -8,10 +8,17 @@ class Babdua extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Ini Bab 2'),
+        title: Text('Bab Dua'),
+        centerTitle: true,
       ),
       body: Center(
-        child: Text('Bab 2'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Rainadiz Danendra Nugroho', style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),),
+            Text('XI RPL Genksss'),
+          ],
+        ),
       ),
     );
   }
