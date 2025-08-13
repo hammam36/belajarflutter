@@ -1,8 +1,8 @@
 // ...............
 
 import 'package:flutter/material.dart';
-import 'package:flutter_test_2/bab/bab3.dart';
-import 'package:flutter_test_2/bab/bab4.dart';
+import 'package:belajar_flutter/bab/bab3.dart';
+import 'package:belajar_flutter/bab/bab4.dart';
 import 'bab/bab2.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: 'bab3',
+      initialRoute: 'bab4',
       routes: {
         'bab2': (context) => const MyBiodata(),
         'bab3': (context) => const Babdua(),

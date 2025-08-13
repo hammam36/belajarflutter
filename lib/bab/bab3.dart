@@ -7,15 +7,13 @@ class Babdua extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Profile Card'),
-      ),
+      appBar: AppBar(title: const Text('Profil Saya')),
       body: Center(
         child: Container(
           width: 300,
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: const Color.fromARGB(255, 19, 221, 59),
             borderRadius: BorderRadius.circular(16),
             boxShadow: [
               BoxShadow(
